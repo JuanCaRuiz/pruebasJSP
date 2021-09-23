@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita:wght@400;700&display=swap');
+   
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; 
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(../imagenes/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedor{
+    position: relative;
+    max-width: 100%;
+    height: 500px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    
+}
+
+.bienvenida, .iniciar{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+
+.bienvenida h1{
+    font-family: 'Sansita', sans-serif;
+    font-size: 9rem;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.iniciar{
+    top: 80%;
+    left: 45%;
+}
+
+.btn{
+    width: 150px;
+    font-weight: 700;
+}
+
+
+
